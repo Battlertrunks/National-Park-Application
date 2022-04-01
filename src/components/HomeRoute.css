@@ -1,0 +1,7 @@
+.HomeRoute .slide-content {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 50vh;
+  width: 100%;
+}
