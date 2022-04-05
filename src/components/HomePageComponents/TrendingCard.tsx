@@ -7,14 +7,16 @@ interface Props {
 }
 
 const TrendingCard = ({ displayContent, onSlide }: Props) => {
-  console.log(onSlide);
   return (
     <li
       className="TrendingCard"
-      style={{ transform: `translateX(${onSlide * 100}%)` }}
+      style={{ transform: `translateX(${onSlide * -100}%)` }}
     >
       <div className="img-container">
-        <img src={displayContent.images[0].url} alt="National park image." />
+        <img
+          src={displayContent.images[0].url}
+          alt={displayContent.images[0].altText}
+        />
       </div>
       <div className="content-container">
         <h3>{displayContent.fullName}</h3>

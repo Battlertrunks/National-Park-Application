@@ -1,5 +1,6 @@
 interface image {
   url: string;
+  altText: string;
 }
 
 export default interface TrendingCardsModel {

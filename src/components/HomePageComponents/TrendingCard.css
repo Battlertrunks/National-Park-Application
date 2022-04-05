@@ -1,14 +1,13 @@
 .TrendingCard {
   width: 100%;
-  max-height: 200px;
   display: flex;
   align-items: center;
-  background-color: green;
+  background-color: #5c9e52;
   transition: all 0.3s ease-in-out;
 }
 
 .TrendingCard .img-container {
-  flex: 1;
+  flex: 1.25;
 }
 
 .TrendingCard img {
@@ -31,4 +30,5 @@
   width: 100vw;
   min-width: 100px;
   margin: 0 15px;
+  margin-right: 25px;
 }
