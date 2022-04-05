@@ -3,31 +3,30 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="Footer">
-      <ul>
-        <li>
+      <div className="divider" />
+      <ul className="links-container">
+        <li className="logo-social-container">
           <h2>Dream Park</h2>
           <p>Copyright 2022 Szczesniak</p>
-        </li>
-        <li>
-          <ul>
+          <ul className="social-media-container">
             <li>
-              <a href="#">
+              <a href="#" className="youtube-icon">
                 <i className="fa-brands fa-youtube"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" className="twitter-icon">
                 <i className="fa-brands fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" className="facebook-icon">
                 <i className="fa-brands fa-facebook"></i>
               </a>
             </li>
           </ul>
         </li>
-        <li>
+        <li className="community-container">
           <h3>Community</h3>
           <ul>
             <li>
@@ -44,7 +43,7 @@ const Footer = () => {
             </li>
           </ul>
         </li>
-        <li>
+        <li className="company-container">
           <h3>Company</h3>
           <ul>
             <li>
